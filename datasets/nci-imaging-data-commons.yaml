@@ -8,7 +8,7 @@ Description: |
   by either funded US National Cancer Institute (NCI)  data collection 
   activities, or by the individual researchers.
 
-  Image data hosted by IDC is stored in DICOM  format. 
+  Image data hosted by IDC is stored in DICOM format. Metadata from DICOM header is extracted via Google's Healthcare API and shared in parquet file format.
 Documentation: https://learn.canceridc.dev/
 Contact: https://discourse.canceridc.dev/
 ManagedBy: "Imaging Data Commons (IDC)(https://imaging.datacommons.cancer.gov) team"
@@ -25,7 +25,7 @@ Tags:
   - machine learning
 License: https://fairsharing.org/FAIRsharing.0b5a1d
 Resources:
-  - Description: De-identified imaging data files in DICOM format distributed under CC-BY license. This bucket is updated with each new IDC release, while maintaining the versioning of the previous releases, as described in the [IDC Data versioning](https://learn.canceridc.dev/docs/data-versioning) documentation. The content of the buckets is [organized](https://learn.canceridc.dev/data/organization-of-data/files-and-metadata) into folders corresponding to versioned DICOM series, with different versions of the series located in the same bucket. Please refer to the [IDC Documentation](https://learn.canceridc.dev/) and [tutorials](https://github.com/ImagingDataCommons/IDC-Tutorials/tree/master/notebooks/getting_started) to learn how to search and download the data, and how to comply with attribution requirements.
+  - Description: De-identified imaging data files in DICOM format distributed under CC-BY license. This bucket is updated with each new IDC release, while maintaining the versioning of the previous releases, as described in the [IDC Data versioning](https://learn.canceridc.dev/docs/data-versioning) documentation. The content of the buckets is [organized](https://learn.canceridc.dev/data/organization-of-data/files-and-metadata) into folders corresponding to versioned DICOM series, with different versions of the series located in the same bucket. In additon to image data, metadata from DICOM header extracted through Google's Healthcare API. The metadata is shared in parquet file format. Please refer to the [IDC Documentation](https://learn.canceridc.dev/) and [tutorials](https://github.com/ImagingDataCommons/IDC-Tutorials/tree/master/notebooks/getting_started) to learn how to search and download the data, and how to comply with attribution requirements.
     ARN: arn:aws:s3:::idc-open-data
     Region: us-east-1
     Type: S3 Bucket
