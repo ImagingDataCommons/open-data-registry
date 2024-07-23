@@ -2,7 +2,7 @@ Name: Reference Elevation Model of Antarctica (REMA)
 Description:  The Reference Elevation Model of Antarctica - 2m GSD Digital Elevation Models (DEMs) and mosaics from 2009 to the present. The REMA project seeks to fill the need for high-resolution time-series elevation data in the Antarctic. The time-dependent nature of the strip DEM files allows users to perform change detection analysis and to compare observations of topography data acquired in different seasons or years. The mosaic DEM tiles are assembled from multiple strip DEMs with the intention of providing a more consistent and comprehensive product over large areas. REMA data is constructed from in-track and cross-track high-resolution (~0.5 meter) imagery acquired by the Maxar constellation of optical imaging satellites.
 Documentation: https://www.pgc.umn.edu/data/rema/
 Contact: pgc-support@umn.edu
-ManagedBy: "[Polar Geospatial Center](http://www.pgc.umn.edu/)"
+ManagedBy: "[Polar Geospatial Center](https://www.pgc.umn.edu/)"
 UpdateFrequency: New DEM strips are added twice yearly.  Mosaic products are added as soon as they are available.
 Collabs:
   ASDI:
@@ -38,6 +38,10 @@ DataAtWork:
     - Title: REMA Explorer
       URL: https://rema.apps.pgc.umn.edu/
       AuthorName: Polar Geospatial Center & ESRI
+    - Title: OpenTopography access to REMA
+      URL: https://doi.org/10.5069/G9X63K5S
+      AuthorName: OpenTopography
+      AuthorURL: https://opentopography.org/
   Publications:
     - Title: "The Reference Elevation Model of Antarctica"
       URL: https://doi.org/10.5194/tc-13-665-2019
